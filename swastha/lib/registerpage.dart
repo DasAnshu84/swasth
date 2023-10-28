@@ -47,21 +47,11 @@ class registerState extends State<register> {
     }
 
     return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(
-              onPressed: signOut,
-              icon: Icon(
-                Icons.logout,
-                color: Colors.black,
-              ))
-        ],
-        backgroundColor: Colors.white,
-      ),
+
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/images/bluecolor.png"),
+            image: AssetImage("assets/images/background.png"),
             fit: BoxFit.cover,
           ),
         ),
@@ -71,7 +61,7 @@ class registerState extends State<register> {
             const Icon(
               Icons.person_rounded,
               size: 150,
-              color: Colors.white,
+              color: Colors.transparent,
             ),
             const SizedBox(height: 20),
             Center(
@@ -89,8 +79,8 @@ class registerState extends State<register> {
                   enabledBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
                   ),
-                  focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white)),
+                  focusedBorder: UnderlineInputBorder(
+                      borderSide: BorderSide(color: Colors.black)),
                   fillColor: Colors.white,
                   filled: true,
                   hintText: 'Email',
