@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "660932784250",
+    "project_id": "patient-55976",
+    "storage_bucket": "patient-55976.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660932784250:android:a563762da04a1889c74bc3",
+        "android_client_info": {
+          "package_name": "com.example.swastha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5k__WPfKAIbJ6V05RuNSdOhFf6ERQZ8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
