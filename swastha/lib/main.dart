@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Duration(seconds: 5),
         () => Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => mainpage()
+            MaterialPageRoute(builder: (context) => Landing()
                 //AnimatedPositionedExample()
                 )));
   }

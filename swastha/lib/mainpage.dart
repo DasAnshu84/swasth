@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:swastha/homepage.dart';
+import 'package:swastha/signin_page.dart';
 import 'package:swastha/loginpage.dart';
 import 'firebase_options.dart';
 import 'package:swastha/landing.dart';
@@ -15,9 +16,9 @@ class mainpage extends StatelessWidget {
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            return Homepage();
+            return HomeScreen();
           } else {
-            return login();
+            return Homepage();
           }
         },
       ),
